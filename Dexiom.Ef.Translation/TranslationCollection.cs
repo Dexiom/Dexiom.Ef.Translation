@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Linq;
 
-namespace Dexiom.Ef.Migration
+namespace Dexiom.Ef.Translation
 {
     public class TranslationCollection<T> : Collection<T> where T : Translation<T>, new()
     {

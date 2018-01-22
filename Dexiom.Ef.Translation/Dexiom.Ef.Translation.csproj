@@ -7,8 +7,8 @@
     <ProjectGuid>{3634F3F6-6A2F-4010-955A-7C7A9A0993A4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Dexiom.Ef.Migration</RootNamespace>
-    <AssemblyName>Dexiom.Ef.Migration</AssemblyName>
+    <RootNamespace>Dexiom.Ef.Translation</RootNamespace>
+    <AssemblyName>Dexiom.Ef.Translation</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
