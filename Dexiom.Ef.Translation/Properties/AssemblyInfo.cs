@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Dexiom.Ef.Translation")]
-[assembly: AssemblyDescription("A quick and elegant way to localize/translate your Entity Framework database.")]
+[assembly: AssemblyDescription("A quick and elegant way to translate your Entity Framework database.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Dexiom")]
 [assembly: AssemblyProduct("Dexiom.Ef.Translation")]
