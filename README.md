@@ -51,12 +51,12 @@ public class ProductTranslation : Translation<ProductTranslation>
 ```cs
 protected override void OnModelCreating(DbModelBuilder modelBuilder)
 {
-  modelBuilder.Entity<Product>()
-      .HasMany(n => n.Translations)
-      .WithRequired()
-      .HasForeignKey(n => n.ProductId)
-      .WillCascadeOnDelete();
+    modelBuilder.Entity<Product>()
+        .HasMany(n => n.Translations)
+        .WithRequired()
+        .HasForeignKey(n => n.ProductId)
+        .WillCascadeOnDelete();
 
-  base.OnModelCreating(modelBuilder);
+    base.OnModelCreating(modelBuilder);
 }
 ```
