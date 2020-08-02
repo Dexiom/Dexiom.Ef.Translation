@@ -2,17 +2,29 @@
 <package >
   <metadata>
     <id>$id$</id>
+    <!--<id>Dexiom.Ef.Translation</id>-->
     <version>$version$</version>
     <title>$title$</title>
     <authors>$author$</authors>
+    <!--<authors>Dexiom</authors>-->
     <owners>$author$</owners>
+    <!--<owners>Dexiom</owners>-->
     <iconUrl>https://raw.githubusercontent.com/Dexiom/Resources/master/branding/dexiom-logo-128.png</iconUrl>
     <licenseUrl>https://github.com/Dexiom/Dexiom.Ef.Translation/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/Dexiom/Dexiom.Ef.Translation</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>$description$</description>
+    <!--<description>A quick and elegant way to translate your Entity Framework database.</description>-->
     <releaseNotes></releaseNotes>
     <copyright>© Consultation Dexiom inc.</copyright>
     <tags></tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0" />
+      <group targetFramework=".NETCoreApp3.0" />
+    </dependencies>
   </metadata>
+  <files>
+    <file src="..\Dexiom.Ef.Translation\bin\Release\Dexiom.Ef.Translation.dll" target="lib\net40"></file>
+    <file src="..\Dexiom.Ef.Translation.NetCore\bin\Release\netcoreapp3.1\Dexiom.Ef.Translation.dll" target="lib\netcoreapp3.0"></file>
+  </files>
 </package>

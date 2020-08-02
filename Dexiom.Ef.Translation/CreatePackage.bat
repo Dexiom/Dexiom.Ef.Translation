@@ -1,0 +1,1 @@
+nuget pack Dexiom.Ef.Translation.nuspec -Properties version="1.0.0"

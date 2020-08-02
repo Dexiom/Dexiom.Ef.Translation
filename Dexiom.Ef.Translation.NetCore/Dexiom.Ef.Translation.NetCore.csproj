@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssemblyName>Dexiom.Ef.Translation</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\Dexiom.Ef.Translation\Translation.cs" Link="Translation.cs" />
+    <Compile Include="..\Dexiom.Ef.Translation\TranslationCollection.cs" Link="TranslationCollection.cs" />
+  </ItemGroup>
+
+</Project>
