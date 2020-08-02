@@ -25,6 +25,6 @@
   </metadata>
   <files>
     <file src="..\Dexiom.Ef.Translation\bin\Release\Dexiom.Ef.Translation.dll" target="lib\net40"></file>
-    <file src="..\Dexiom.Ef.Translation.NetCore\bin\Release\netcoreapp3.1\Dexiom.Ef.Translation.dll" target="lib\netcoreapp3.0"></file>
+    <file src="..\Dexiom.Ef.Translation.NetCore\bin\Any CPU\Release\netcoreapp3.1\Dexiom.Ef.Translation.dll" target="lib\netcoreapp3.0"></file>
   </files>
 </package>
